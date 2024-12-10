@@ -1,0 +1,14 @@
+/Users/nickbutani/Desktop/DotNETTraining/week1/StopWatch/bin/Debug/net9.0/StopWatch
+/Users/nickbutani/Desktop/DotNETTraining/week1/StopWatch/bin/Debug/net9.0/StopWatch.deps.json
+/Users/nickbutani/Desktop/DotNETTraining/week1/StopWatch/bin/Debug/net9.0/StopWatch.runtimeconfig.json
+/Users/nickbutani/Desktop/DotNETTraining/week1/StopWatch/bin/Debug/net9.0/StopWatch.dll
+/Users/nickbutani/Desktop/DotNETTraining/week1/StopWatch/bin/Debug/net9.0/StopWatch.pdb
+/Users/nickbutani/Desktop/DotNETTraining/week1/StopWatch/obj/Debug/net9.0/StopWatch.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nickbutani/Desktop/DotNETTraining/week1/StopWatch/obj/Debug/net9.0/StopWatch.AssemblyInfoInputs.cache
+/Users/nickbutani/Desktop/DotNETTraining/week1/StopWatch/obj/Debug/net9.0/StopWatch.AssemblyInfo.cs
+/Users/nickbutani/Desktop/DotNETTraining/week1/StopWatch/obj/Debug/net9.0/StopWatch.csproj.CoreCompileInputs.cache
+/Users/nickbutani/Desktop/DotNETTraining/week1/StopWatch/obj/Debug/net9.0/StopWatch.dll
+/Users/nickbutani/Desktop/DotNETTraining/week1/StopWatch/obj/Debug/net9.0/refint/StopWatch.dll
+/Users/nickbutani/Desktop/DotNETTraining/week1/StopWatch/obj/Debug/net9.0/StopWatch.pdb
+/Users/nickbutani/Desktop/DotNETTraining/week1/StopWatch/obj/Debug/net9.0/StopWatch.genruntimeconfig.cache
+/Users/nickbutani/Desktop/DotNETTraining/week1/StopWatch/obj/Debug/net9.0/ref/StopWatch.dll

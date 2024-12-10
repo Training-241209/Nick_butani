@@ -1,0 +1,14 @@
+/Users/nickbutani/Desktop/DotNETTraining/week1/Expenstracker/obj/Debug/net9.0/Expenstracker.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nickbutani/Desktop/DotNETTraining/week1/Expenstracker/obj/Debug/net9.0/Expenstracker.AssemblyInfoInputs.cache
+/Users/nickbutani/Desktop/DotNETTraining/week1/Expenstracker/obj/Debug/net9.0/Expenstracker.AssemblyInfo.cs
+/Users/nickbutani/Desktop/DotNETTraining/week1/Expenstracker/obj/Debug/net9.0/Expenstracker.csproj.CoreCompileInputs.cache
+/Users/nickbutani/Desktop/DotNETTraining/week1/Expenstracker/bin/Debug/net9.0/Expenstracker
+/Users/nickbutani/Desktop/DotNETTraining/week1/Expenstracker/bin/Debug/net9.0/Expenstracker.deps.json
+/Users/nickbutani/Desktop/DotNETTraining/week1/Expenstracker/bin/Debug/net9.0/Expenstracker.runtimeconfig.json
+/Users/nickbutani/Desktop/DotNETTraining/week1/Expenstracker/bin/Debug/net9.0/Expenstracker.dll
+/Users/nickbutani/Desktop/DotNETTraining/week1/Expenstracker/bin/Debug/net9.0/Expenstracker.pdb
+/Users/nickbutani/Desktop/DotNETTraining/week1/Expenstracker/obj/Debug/net9.0/Expenstracker.dll
+/Users/nickbutani/Desktop/DotNETTraining/week1/Expenstracker/obj/Debug/net9.0/refint/Expenstracker.dll
+/Users/nickbutani/Desktop/DotNETTraining/week1/Expenstracker/obj/Debug/net9.0/Expenstracker.pdb
+/Users/nickbutani/Desktop/DotNETTraining/week1/Expenstracker/obj/Debug/net9.0/Expenstracker.genruntimeconfig.cache
+/Users/nickbutani/Desktop/DotNETTraining/week1/Expenstracker/obj/Debug/net9.0/ref/Expenstracker.dll

@@ -1,0 +1,14 @@
+/Users/nickbutani/Desktop/DotNETTraining/week1/FizzBuzz/obj/Debug/net9.0/FizzBuzz.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nickbutani/Desktop/DotNETTraining/week1/FizzBuzz/obj/Debug/net9.0/FizzBuzz.AssemblyInfoInputs.cache
+/Users/nickbutani/Desktop/DotNETTraining/week1/FizzBuzz/obj/Debug/net9.0/FizzBuzz.AssemblyInfo.cs
+/Users/nickbutani/Desktop/DotNETTraining/week1/FizzBuzz/obj/Debug/net9.0/FizzBuzz.csproj.CoreCompileInputs.cache
+/Users/nickbutani/Desktop/DotNETTraining/week1/FizzBuzz/bin/Debug/net9.0/FizzBuzz
+/Users/nickbutani/Desktop/DotNETTraining/week1/FizzBuzz/bin/Debug/net9.0/FizzBuzz.deps.json
+/Users/nickbutani/Desktop/DotNETTraining/week1/FizzBuzz/bin/Debug/net9.0/FizzBuzz.runtimeconfig.json
+/Users/nickbutani/Desktop/DotNETTraining/week1/FizzBuzz/bin/Debug/net9.0/FizzBuzz.dll
+/Users/nickbutani/Desktop/DotNETTraining/week1/FizzBuzz/bin/Debug/net9.0/FizzBuzz.pdb
+/Users/nickbutani/Desktop/DotNETTraining/week1/FizzBuzz/obj/Debug/net9.0/FizzBuzz.dll
+/Users/nickbutani/Desktop/DotNETTraining/week1/FizzBuzz/obj/Debug/net9.0/refint/FizzBuzz.dll
+/Users/nickbutani/Desktop/DotNETTraining/week1/FizzBuzz/obj/Debug/net9.0/FizzBuzz.pdb
+/Users/nickbutani/Desktop/DotNETTraining/week1/FizzBuzz/obj/Debug/net9.0/FizzBuzz.genruntimeconfig.cache
+/Users/nickbutani/Desktop/DotNETTraining/week1/FizzBuzz/obj/Debug/net9.0/ref/FizzBuzz.dll

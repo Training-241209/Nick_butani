@@ -1,0 +1,14 @@
+/Users/nickbutani/Desktop/DotNETTraining/week1/MagicBall/obj/Debug/net9.0/MagicBall.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nickbutani/Desktop/DotNETTraining/week1/MagicBall/obj/Debug/net9.0/MagicBall.AssemblyInfoInputs.cache
+/Users/nickbutani/Desktop/DotNETTraining/week1/MagicBall/obj/Debug/net9.0/MagicBall.AssemblyInfo.cs
+/Users/nickbutani/Desktop/DotNETTraining/week1/MagicBall/obj/Debug/net9.0/MagicBall.csproj.CoreCompileInputs.cache
+/Users/nickbutani/Desktop/DotNETTraining/week1/MagicBall/bin/Debug/net9.0/MagicBall
+/Users/nickbutani/Desktop/DotNETTraining/week1/MagicBall/bin/Debug/net9.0/MagicBall.deps.json
+/Users/nickbutani/Desktop/DotNETTraining/week1/MagicBall/bin/Debug/net9.0/MagicBall.runtimeconfig.json
+/Users/nickbutani/Desktop/DotNETTraining/week1/MagicBall/bin/Debug/net9.0/MagicBall.dll
+/Users/nickbutani/Desktop/DotNETTraining/week1/MagicBall/bin/Debug/net9.0/MagicBall.pdb
+/Users/nickbutani/Desktop/DotNETTraining/week1/MagicBall/obj/Debug/net9.0/MagicBall.dll
+/Users/nickbutani/Desktop/DotNETTraining/week1/MagicBall/obj/Debug/net9.0/refint/MagicBall.dll
+/Users/nickbutani/Desktop/DotNETTraining/week1/MagicBall/obj/Debug/net9.0/MagicBall.pdb
+/Users/nickbutani/Desktop/DotNETTraining/week1/MagicBall/obj/Debug/net9.0/MagicBall.genruntimeconfig.cache
+/Users/nickbutani/Desktop/DotNETTraining/week1/MagicBall/obj/Debug/net9.0/ref/MagicBall.dll

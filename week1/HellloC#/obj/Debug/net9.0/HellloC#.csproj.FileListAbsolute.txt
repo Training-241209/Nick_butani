@@ -1,0 +1,14 @@
+/Users/nickbutani/Desktop/DotNETTraining/week2/HellloC#/bin/Debug/net9.0/HellloC#
+/Users/nickbutani/Desktop/DotNETTraining/week2/HellloC#/bin/Debug/net9.0/HellloC#.deps.json
+/Users/nickbutani/Desktop/DotNETTraining/week2/HellloC#/bin/Debug/net9.0/HellloC#.runtimeconfig.json
+/Users/nickbutani/Desktop/DotNETTraining/week2/HellloC#/bin/Debug/net9.0/HellloC#.dll
+/Users/nickbutani/Desktop/DotNETTraining/week2/HellloC#/bin/Debug/net9.0/HellloC#.pdb
+/Users/nickbutani/Desktop/DotNETTraining/week2/HellloC#/obj/Debug/net9.0/HellloC#.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nickbutani/Desktop/DotNETTraining/week2/HellloC#/obj/Debug/net9.0/HellloC#.AssemblyInfoInputs.cache
+/Users/nickbutani/Desktop/DotNETTraining/week2/HellloC#/obj/Debug/net9.0/HellloC#.AssemblyInfo.cs
+/Users/nickbutani/Desktop/DotNETTraining/week2/HellloC#/obj/Debug/net9.0/HellloC#.csproj.CoreCompileInputs.cache
+/Users/nickbutani/Desktop/DotNETTraining/week2/HellloC#/obj/Debug/net9.0/HellloC#.dll
+/Users/nickbutani/Desktop/DotNETTraining/week2/HellloC#/obj/Debug/net9.0/refint/HellloC#.dll
+/Users/nickbutani/Desktop/DotNETTraining/week2/HellloC#/obj/Debug/net9.0/HellloC#.pdb
+/Users/nickbutani/Desktop/DotNETTraining/week2/HellloC#/obj/Debug/net9.0/HellloC#.genruntimeconfig.cache
+/Users/nickbutani/Desktop/DotNETTraining/week2/HellloC#/obj/Debug/net9.0/ref/HellloC#.dll
