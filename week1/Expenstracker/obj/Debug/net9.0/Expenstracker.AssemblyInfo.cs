@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Expenstracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8cfc7fcace19dc067a74bb8f133da12683e6daa3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Expenstracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Expenstracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
