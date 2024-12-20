@@ -28,7 +28,11 @@ public class UserController {
         System.out.println("Attempting to register user: " + registerUserDTO.getUsername());
         try {
             userService.registerUser(registerUserDTO);
-            String token = jwtUtil.generateToken(registerUserDTO.getUsername());
+            User user = new User();
+            user.setUsername(registerUserDTO.getUsername());
+            user.setEmail(registerUserDTO.getEmail());
+            user.setFirstName(registerUserDTO.getFirstName());
+            String token = jwtUtil.generateToken(user);
             return ResponseEntity.status(201).body("User " + registerUserDTO.getUsername() + " was created successfully!" + token);
         } catch (IllegalArgumentException e){
             System.out.println("Registration failed: " + e.getMessage());

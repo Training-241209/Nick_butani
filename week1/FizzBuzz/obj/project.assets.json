@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nickbutani/Desktop/DOTNET/week1/FizzBuzz/FizzBuzz.csproj",
+      "projectUniqueName": "/Users/nickbutani/Desktop/ERS/week1/FizzBuzz/FizzBuzz.csproj",
       "projectName": "FizzBuzz",
-      "projectPath": "/Users/nickbutani/Desktop/DOTNET/week1/FizzBuzz/FizzBuzz.csproj",
+      "projectPath": "/Users/nickbutani/Desktop/ERS/week1/FizzBuzz/FizzBuzz.csproj",
       "packagesPath": "/Users/nickbutani/.nuget/packages/",
-      "outputPath": "/Users/nickbutani/Desktop/DOTNET/week1/FizzBuzz/obj/",
+      "outputPath": "/Users/nickbutani/Desktop/ERS/week1/FizzBuzz/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/nickbutani/.nuget/NuGet/NuGet.Config"

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HellloC#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cd39f89d7586db496082a7047f622d0aef6d5ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9524a9ff99e33c94d3c3a9a72fba3fced71e8d3b")]
 [assembly: System.Reflection.AssemblyProductAttribute("HellloC#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HellloC#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

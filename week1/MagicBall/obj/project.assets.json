@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nickbutani/Desktop/DOTNET/week1/MagicBall/MagicBall.csproj",
+      "projectUniqueName": "/Users/nickbutani/Desktop/ERS/week1/MagicBall/MagicBall.csproj",
       "projectName": "MagicBall",
-      "projectPath": "/Users/nickbutani/Desktop/DOTNET/week1/MagicBall/MagicBall.csproj",
+      "projectPath": "/Users/nickbutani/Desktop/ERS/week1/MagicBall/MagicBall.csproj",
       "packagesPath": "/Users/nickbutani/.nuget/packages/",
-      "outputPath": "/Users/nickbutani/Desktop/DOTNET/week1/MagicBall/obj/",
+      "outputPath": "/Users/nickbutani/Desktop/ERS/week1/MagicBall/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/nickbutani/.nuget/NuGet/NuGet.Config"

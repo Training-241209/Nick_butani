@@ -16,9 +16,7 @@ public class RegisterDTO extends LoginDTO {
         this.role = role;
         this.email = email;
     }
-
-    // getters and setters
-
+    
     public String getFirstName() {
         return firstName;
     }

@@ -4,6 +4,8 @@ import com.ers.employee_reimbursement_system.entity.*;
 import com.ers.employee_reimbursement_system.entity.dto.*;
 import com.ers.employee_reimbursement_system.DAOs.*;
 import com.ers.employee_reimbursement_system.entity.dto.*;
+// import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+// import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.Optional;
@@ -12,17 +14,24 @@ import java.util.Optional;
 public class UserService {
 
     private UserDAO userDAO;
+    // private PasswordEncoder passwordEncoder;
 
     @Autowired
     public UserService(UserDAO userDAO) {
         this.userDAO = userDAO;
     }
 
+    // public UserService() {
+    //     this.passwordEncoder = new BCryptPasswordEncoder();
+    // }
+
     public User registerUser(RegisterDTO registerUserDTO) throws IllegalArgumentException {
         Optional<User> user = userDAO.findByUsername(registerUserDTO.getUsername());
         if(user.isPresent()){
             throw new IllegalArgumentException("Username already exists");
         }
+
+        // String hashedpwd = passwordEncoder.encode(registerUserDTO.getPassword());
 
         if (registerUserDTO.getUsername() == null || registerUserDTO.getUsername().isBlank()) {
             throw new IllegalArgumentException("Username cannot be empty");
