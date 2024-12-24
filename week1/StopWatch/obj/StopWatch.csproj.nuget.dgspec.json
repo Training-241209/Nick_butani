@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nickbutani/Desktop/ERS/week1/StopWatch/StopWatch.csproj": {}
+    "/Users/nickbutani/Desktop/Nick_butani/week1/StopWatch/StopWatch.csproj": {}
   },
   "projects": {
-    "/Users/nickbutani/Desktop/ERS/week1/StopWatch/StopWatch.csproj": {
+    "/Users/nickbutani/Desktop/Nick_butani/week1/StopWatch/StopWatch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nickbutani/Desktop/ERS/week1/StopWatch/StopWatch.csproj",
+        "projectUniqueName": "/Users/nickbutani/Desktop/Nick_butani/week1/StopWatch/StopWatch.csproj",
         "projectName": "StopWatch",
-        "projectPath": "/Users/nickbutani/Desktop/ERS/week1/StopWatch/StopWatch.csproj",
+        "projectPath": "/Users/nickbutani/Desktop/Nick_butani/week1/StopWatch/StopWatch.csproj",
         "packagesPath": "/Users/nickbutani/.nuget/packages/",
-        "outputPath": "/Users/nickbutani/Desktop/ERS/week1/StopWatch/obj/",
+        "outputPath": "/Users/nickbutani/Desktop/Nick_butani/week1/StopWatch/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nickbutani/.nuget/NuGet/NuGet.Config"

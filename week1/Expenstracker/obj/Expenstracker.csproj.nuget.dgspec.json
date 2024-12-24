@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nickbutani/Desktop/ERS/week1/Expenstracker/Expenstracker.csproj": {}
+    "/Users/nickbutani/Desktop/Nick_butani/week1/Expenstracker/Expenstracker.csproj": {}
   },
   "projects": {
-    "/Users/nickbutani/Desktop/ERS/week1/Expenstracker/Expenstracker.csproj": {
+    "/Users/nickbutani/Desktop/Nick_butani/week1/Expenstracker/Expenstracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nickbutani/Desktop/ERS/week1/Expenstracker/Expenstracker.csproj",
+        "projectUniqueName": "/Users/nickbutani/Desktop/Nick_butani/week1/Expenstracker/Expenstracker.csproj",
         "projectName": "Expenstracker",
-        "projectPath": "/Users/nickbutani/Desktop/ERS/week1/Expenstracker/Expenstracker.csproj",
+        "projectPath": "/Users/nickbutani/Desktop/Nick_butani/week1/Expenstracker/Expenstracker.csproj",
         "packagesPath": "/Users/nickbutani/.nuget/packages/",
-        "outputPath": "/Users/nickbutani/Desktop/ERS/week1/Expenstracker/obj/",
+        "outputPath": "/Users/nickbutani/Desktop/Nick_butani/week1/Expenstracker/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nickbutani/.nuget/NuGet/NuGet.Config"

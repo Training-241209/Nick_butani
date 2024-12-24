@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nickbutani/Desktop/ERS/week1/HellloC#/HellloC#.csproj",
+      "projectUniqueName": "/Users/nickbutani/Desktop/Nick_butani/week1/HellloC#/HellloC#.csproj",
       "projectName": "HellloC#",
-      "projectPath": "/Users/nickbutani/Desktop/ERS/week1/HellloC#/HellloC#.csproj",
+      "projectPath": "/Users/nickbutani/Desktop/Nick_butani/week1/HellloC#/HellloC#.csproj",
       "packagesPath": "/Users/nickbutani/.nuget/packages/",
-      "outputPath": "/Users/nickbutani/Desktop/ERS/week1/HellloC#/obj/",
+      "outputPath": "/Users/nickbutani/Desktop/Nick_butani/week1/HellloC#/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/nickbutani/.nuget/NuGet/NuGet.Config"
