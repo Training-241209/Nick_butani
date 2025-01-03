@@ -1,5 +1,6 @@
 package com.nick.ers.model;
 
+
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import jakarta.persistence.*;

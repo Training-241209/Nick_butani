@@ -2,6 +2,7 @@ package com.nick.ers.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import lombok.Data;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -13,6 +14,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 @Entity
 @Table(name = "users")
+@Data
 public class User implements UserDetails {
     
     @Id
@@ -135,7 +137,26 @@ public class User implements UserDetails {
     public String toString(){
         return "User{ " + userId + ", username= " + username + ", fistname= " + firstname + ", lastname= " + lastname + ", password= " + password + ", role= " + role + ", reimbursment= " + reimbursements + "}";
     }
-
+    
+    @Override
+    public boolean isAccountNonExpired() {
+        return true;  // or implement your logic
+    }
+    
+    @Override
+    public boolean isAccountNonLocked() {
+        return true;  // or implement your logic
+    }
+    
+    @Override
+    public boolean isCredentialsNonExpired() {
+        return true;  // or implement your logic
+    }
+    
+    @Override
+    public boolean isEnabled() {
+        return true;  // or implement your logic
+    }
   
 
 }

@@ -19,12 +19,11 @@ import org.springframework.security.access.annotation.Secured;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.context.annotation.Configuration;
+
 import org.springframework.stereotype.Service;
 
 
 
-@Configuration
 @Service
 public class UserService {
 
