@@ -1,24 +1,26 @@
 package com.nick.ers.service;
 
-import java.util.NoSuchElementException;
-import java.util.Optional;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.stereotype.Service;
-
 import com.nick.ers.exception.InvalidCredentialsException;
+import com.nick.ers.exception.ResourceNotFoundException;
 import com.nick.ers.exception.UserConflictException;
 import com.nick.ers.exception.UserNotFoundException;
 import com.nick.ers.model.User;
 import com.nick.ers.model.User.Role;
 import com.nick.ers.model.dto.LoginDTO;
+import com.nick.ers.model.dto.UserDTO;
 import com.nick.ers.model.dto.UserRegisterationDTO;
+import com.nick.ers.repository.ReimbursementRepository;
 import com.nick.ers.repository.UserRepository;
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.annotation.Secured;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.web.bind.annotation.GetMapping;
+
+
 
 
 @Configuration
@@ -43,6 +45,9 @@ public class UserService {
 
     @Autowired
     private PasswordEncoder passwordEncoder;
+
+    @Autowired
+    private ReimbursementRepository reimbursementRepository;
 
     public User createUser(UserRegisterationDTO userRegisterationDTO) throws Exception{
         Optional<User> user = userRepository.findByUsername(userRegisterationDTO.getUsername());
@@ -75,4 +80,33 @@ public class UserService {
                 .orElseThrow(() -> new UserNotFoundException("User with username '" + username + "' not found."));
     }
 
+    @Secured("MANAGER")
+    @GetMapping
+    public List<UserDTO> getAllUsers() {
+        List<User> users = userRepository.findAll()
+                                        .stream()
+                                        .filter(user -> !user.getRole().name().equalsIgnoreCase("MANAGER"))
+                                        .collect(Collectors.toList());
+        return users.stream().map(this::toDTO).collect(Collectors.toList());
+    }
+
+    public void deleteUser(int userId) {
+        User user = userRepository.findById(userId)
+            .orElseThrow(() -> new ResourceNotFoundException("User not found"));
+            if (user.getReimbursement() != null) {
+                user.getReimbursement().forEach(reimbursement -> {
+                    reimbursement.setUser(null);
+                });
+            }
+        userRepository.delete(user);
+    }
+
+    private UserDTO toDTO(User user) {
+        UserDTO dto = new UserDTO();
+        dto.setUserId(user.getUserId());
+        dto.setFirstname(user.getFirstname());
+        dto.setLastname(user.getLastname());
+        dto.setRole(user.getRole().name());
+        return dto;
+    }
 }

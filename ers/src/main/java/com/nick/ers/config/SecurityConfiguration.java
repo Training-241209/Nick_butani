@@ -29,6 +29,8 @@ import com.nick.ers.repository.UserRepository;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.AllArgsConstructor;
 
+
+
 @Configuration
 @AllArgsConstructor
 @EnableWebSecurity
@@ -43,7 +45,7 @@ public class SecurityConfiguration implements WebMvcConfigurer{
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("http://localhost:8080")
+                .allowedOrigins("http://localhost:5173")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
                 .allowCredentials(true);
@@ -52,11 +54,14 @@ public class SecurityConfiguration implements WebMvcConfigurer{
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception{
          httpSecurity
+            .cors(Customizer.withDefaults())
             .csrf(csrf -> csrf.disable())
             .authorizeHttpRequests(auth -> {
-                auth.requestMatchers("/users/login", "/users/register").permitAll()
+                auth.requestMatchers("/users/login", "/users/register", "/users/test").permitAll()
+                    .requestMatchers("/users/**").hasAuthority("MANAGER")
                     .requestMatchers("/reimburse/*/approve", "/reimburse/*/deny")
                     .hasAuthority("MANAGER")
+                    .requestMatchers("/reimburse/me").authenticated()
                     .anyRequest().authenticated();
             })
             .exceptionHandling(ex -> ex

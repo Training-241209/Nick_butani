@@ -1,17 +1,26 @@
 package com.nick.ers.service;
 
 import java.io.IOException;
-
 import org.springframework.security.core.AuthenticationException;
-import org.springframework.security.web.AuthenticationEntryPoint;
-
-import jakarta.servlet.ServletException;
+import org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint;
+import org.springframework.stereotype.Component;
 import jakarta.servlet.http.*;
 
-public class JwtAuthenticationEntryPoint implements AuthenticationEntryPoint {
-    @Override
-    public void commence(HttpServletRequest request, HttpServletResponse response, AuthenticationException authException)
-            throws IOException, ServletException {
-        response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Unauthorized: Invalid or expired token.");
-    }
+@Component
+public class JwtAuthenticationEntryPoint extends BasicAuthenticationEntryPoint {
+
+  @Override
+  public void commence(HttpServletRequest request, HttpServletResponse response,
+      AuthenticationException authException) throws IOException, IOException {
+
+    response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
+    response.setContentType("application/json");
+    response.getWriter().write("{ \"message\": \"" + authException.getMessage() + "\" }");
+  }
+
+  @Override
+  public void afterPropertiesSet() {
+    setRealmName("JWT Authentication");
+    super.afterPropertiesSet();
+  }
 }

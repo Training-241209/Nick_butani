@@ -18,7 +18,7 @@ public class Reimbursement {
     @Column(nullable = false)
     private Double amount;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "user_id", referencedColumnName = "userId")
     @JsonIgnore
     private User user;
@@ -41,7 +41,7 @@ public class Reimbursement {
         this.status = status;
     }
 
-    public int getreimId(){
+    public int getReimId(){
         return reimId;
     }
 
@@ -77,7 +77,7 @@ public class Reimbursement {
         this.description = description;
     }
 
-    public void seyAmmount(Double amount){
+    public void setAmount(Double amount){
         this.amount = amount;
     }
 

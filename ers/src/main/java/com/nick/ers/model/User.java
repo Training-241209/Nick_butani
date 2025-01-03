@@ -1,14 +1,12 @@
 package com.nick.ers.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-
-
 import jakarta.persistence.*;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections; 
 import java.util.List;
-
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -112,9 +110,9 @@ public class User implements UserDetails {
         this.role = role;
     }
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     @JsonIgnore
-    private List<Reimbursement> reimbursements;
+    private List<Reimbursement> reimbursements = new ArrayList<>();
 
     public List<Reimbursement> getReimbursement(){
         return reimbursements;
@@ -127,6 +125,10 @@ public class User implements UserDetails {
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return Collections.singletonList(new SimpleGrantedAuthority(role.name()));
+    }
+
+    public String getName() {
+        return firstname + " " + lastname;
     }
 
     @Override

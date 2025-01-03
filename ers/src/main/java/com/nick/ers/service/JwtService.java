@@ -1,30 +1,20 @@
 package com.nick.ers.service;
 
-import java.nio.charset.Charset;
 import java.security.Key;
-import java.security.NoSuchAlgorithmException;
 import java.sql.Date;
 import java.util.ArrayList;
-import java.util.Base64;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
-import java.util.Base64.Decoder;
-
-import javax.crypto.KeyGenerator;
-import javax.crypto.SecretKey;
-
-import org.springframework.stereotype.Service;
 
 import com.nick.ers.model.User;
-
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
-
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 
 //token generator and parsing token
 @Service
@@ -46,6 +36,8 @@ public class JwtService {
         Map<String, Object> claims = new HashMap<>();
 
         claims.put("id", user.getUserId());
+        claims.put("firstname", user.getFirstname());
+        claims.put("lastname", user.getLastname());
         claims.put("username", user.getUsername());
         claims.put("role", user.getRole());
 

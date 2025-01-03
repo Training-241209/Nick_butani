@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MagicBall")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec2ae44e61c36191c11d90a32aa0e6c5f0e6f9bb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c5d67c57ea450b89a0cec0429603257bb947cf1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MagicBall")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MagicBall")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
