@@ -16,8 +16,7 @@ Simple employee reimbursement system app that let employee create the reimbursem
 - JWT - secure authentication and authorization
 
 ### ERD Model
-<iframe width="100%" height="500px" style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); border-radius:15px;" allowtransparency="false" allowfullscreen="false" scrolling="no" title="Embedded DrawSQL IFrame" frameborder="0" src="https://drawsql.app/teams/nick-butani/diagrams/ers/embed"></iframe>
-
+<img width="80%" alt="Hello, I'm Nick BUtani. I do website!" src="./ERD.png" />
 
 ### Challenges
 - API Error Handling: Ensuring robust error handling for various API scenarios.
