@@ -50,7 +50,7 @@ export function SignupForm({
 
   const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
-    setError(' ');
+    setError('');
 
     fetch("http://localhost:8080/users/register", {
       method: "POST",
@@ -64,14 +64,14 @@ export function SignupForm({
         const errorData = await response.json();
         throw new Error(errorData.message ||"User already exist!")
       }
-      return response.text();
+      return response.json();
     })
     .then(data => {
       console.log('Account created! Redirecting ', 
       data), setShowModal(true), 
       setTimeout(() => {
         setShowModal(false);
-        navigate("/login");
+        navigate("/login?role=EMPLOYEE");
       }, 3000)
       })
       .catch(error => {
